@@ -54,5 +54,11 @@ namespace RomanNumeralsTests
         {
             99.ToRoman().ShouldBe("XCIX");
         }
+
+        [Test]
+        public void Six_should_return_VI()
+        {
+            6.ToRoman().ShouldBe("VI");
+        }
     }
 }
